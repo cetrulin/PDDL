@@ -1,0 +1,33 @@
+ff: found legal plan as follows
+
+step    0: COLOCA_PLATO PLATO_HONDO SOPA_DE_ARROZ
+        1: ABRIR_ALMACEN NEVERA
+        2: COGER_BOTELLA BOTELLA_CALDO MANODER NEVERA
+        3: CERRAR_ALMACEN NEVERA
+        4: ABRIR_ALMACEN CAJON
+        5: DESTAPA BOTELLA_CALDO
+        6: ENCIENDE_VITRO VITRO_UNO SOPA_DE_ARROZ
+        7: COGER_UTENSILIO OLLA MANODER CAJON
+        8: CERRAR_ALMACEN CAJON
+        9: OCUPA_VITRO VITRO_UNO OLLA MANODER
+       10: VIERTE_LIQUIDO BOTELLA_CALDO OLLA VITRO_UNO
+       11: TIRAR_BOTELLA BOTELLA_CALDO MANODER
+       12: ABRIR_ALMACEN DESPENSA
+       13: COGER_ALIMENTO ARROZ MANODER DESPENSA
+       14: ECHA_AL_FUEGO_ALIMENTO ARROZ OLLA VITRO_UNO MANODER
+       15: COGER_INGREDIENTE DIENTE_DE_AJO MANODER DESPENSA
+       16: ECHA_AL_FUEGO_INGREDIENTE ARROZ DIENTE_DE_AJO OLLA VITRO_UNO SOPA_DE_ARROZ MANODER
+       17: SERVIR_ALIMENTO_INGREDIENTES ARROZ DIENTE_DE_AJO OLLA VITRO_UNO PLATO_HONDO SOPA_DE_ARROZ
+       18: APAGA_VITRO VITRO_UNO ARROZ SOPA_DE_ARROZ
+       19: RECOGE ARROZ OLLA VITRO_UNO SOPA_DE_ARROZ MANODER
+       20: PONE_EN_FREGADERO ARROZ OLLA VITRO_UNO SOPA_DE_ARROZ MANODER
+       21: CERRAR_ALMACEN DESPENSA
+     
+
+time spent:    0.00 seconds instantiating 40 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 39 facts and 32 actions
+               0.00 seconds creating final representation with 39 relevant facts, 0 relevant fluents
+               0.00 seconds computing LNF
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 94 states, to a max depth of 3
+               0.00 seconds total time

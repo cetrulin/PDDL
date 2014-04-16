@@ -1,0 +1,20 @@
+ff: found legal plan as follows
+
+step    0: COLOCA_PLATO PLATO_PEQUENYO FRESAS_CON_AZUCAR
+        1: ABRIR_ALMACEN NEVERA
+        2: COGER_ALIMENTO FRESAS MANO_DER NEVERA
+        3: ANYADE_ALIMENTO_SIN_VITRO FRESAS FRESAS_CON_AZUCAR PLATO_PEQUENYO MANO_DER
+        4: CERRAR_ALMACEN NEVERA
+        5: ABRIR_ALMACEN DESPENSA
+        6: COGER_INGREDIENTE AZUCAR MANO_DER DESPENSA
+        7: ANYADE_INGREDIENTE_SIN_VITRO FRESAS AZUCAR FRESAS_CON_AZUCAR PLATO_PEQUENYO MANO_DER
+        8: CERRAR_ALMACEN DESPENSA
+     
+
+time spent:    0.00 seconds instantiating 32 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 23 facts and 11 actions
+               0.00 seconds creating final representation with 18 relevant facts, 0 relevant fluents
+               0.00 seconds computing LNF
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 15 states, to a max depth of 2
+               0.00 seconds total time
